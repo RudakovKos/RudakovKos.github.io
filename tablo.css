@@ -1,0 +1,124 @@
+.fon_back {
+    background-image: url(back_gd_sab.png);
+    background-color: #c7b39b; /* Цвет фона */
+    background-position: left bottom; /* Положение фона */
+    background-repeat: no-repeat;  /* Не повторять */
+    height: 576px; /* Высота блока */
+    width: 640px; /* Ширина блока */
+    padding: 0px; /* Поля вокруг текста */
+    border: 0px solid #333; /* Параметры рамки */
+    margin: 0px; /* Отступы вокруг */
+   }
+.name_team {
+    background-color: white; /* Цвет фона */
+    height: 26px; /* Высота блока */
+    width: 640px; /* Ширина блока */
+    position: fixed; /* Абсолютное позиционирование */
+    top: 8px; /* Положение от верхнего края */
+    left: 8px; /* Положение от левого края */
+    padding: 0px; /* Поля вокруг текста */
+    border: 0px solid black; /* Параметры рамки */
+    margin: 0px; /* Отступы вокруг */
+    display: flex;
+    flex-wrap: nowrap;
+   }
+.name_team_in {
+    height: 26px; /* Высота блока */
+    width: 320px; /* Ширина блока */
+    text-align: center;
+    text-transform: uppercase; /* Заглавные буквы */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    font-weight: bold; /* Жирное начертание */
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 20px; /* Размер шрифта в пунктах */ 
+    color: orangered;
+    }
+.team_lft {
+    background-color: white; /* Цвет фона */
+    height: 358px; /* Высота блока */
+    width: 196px; /* Ширина блока */
+    position: fixed; /* Абсолютное позиционирование */
+    top: 34px; /* Положение от верхнего края */
+    left: 8px; /* Положение от левого края */
+    padding: 0px; /* Поля вокруг текста */
+    border: 0px solid black; /* Параметры рамки */
+    margin: 0px; /* Отступы вокруг */
+   }
+.team_lft_player {
+    height: 29px; /* Высота блока */
+    width: 196px; /* Ширина блока */
+    position: relative; /* Относительное позиционирование */
+   }
+.player_team_num {
+    height: 29px; /* Высота блока */
+    width: 21px; /* Ширина блока */
+    position: absolute; /* Абсолютное позиционирование */
+    top: 0px; /* Положение от верхнего края */
+    left: 0px; /* Положение от левого края */
+    text-align: right;
+    text-transform: uppercase; /* Заглавные буквы */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    font-weight: bold; /* Жирное начертание */
+    font-family: Bicubik, Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 20px; /* Размер шрифта в пунктах */ 
+    color: lightskyblue;
+   }
+   .player_team_name {
+    height: 19px; /* Высота блока */
+    width: 146px; /* Ширина блока */
+    position: absolute; /* Абсолютное позиционирование */
+    top: 0px; /* Положение от верхнего края */
+    left: 25px; /* Положение от левого края */
+    text-align: left;
+    text-transform: uppercase; /* Заглавные буквы */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    font-weight: bold; /* Жирное начертание */
+    font-family: Bicubik, Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 16px; /* Размер шрифта в пунктах */ 
+    color: wheat;
+   }
+   .player_team_foul {
+    height: 10px; /* Высота блока */
+    width: 146px; /* Ширина блока */
+    position: absolute; /* Абсолютное позиционирование */
+    top: 19px; /* Положение от верхнего края */
+    left: 25px; /* Положение от левого края */
+    display: flex;
+    flex-wrap: nowrap;
+   }
+   .player_team_foul_green {
+    height: 6px; /* Высота блока */
+    width: 20px; /* Ширина блока */
+    position: relative; /* Абсолютное позиционирование */
+    background-color: green;
+    margin: 0px 5px 0px 5px; /* Отступы вокруг */
+    }
+    .player_team_foul_red {
+    height: 6px; /* Высота блока */
+    width: 20px; /* Ширина блока */
+    position: relative; /* Абсолютное позиционирование */
+    background-color: red;
+    margin: 0px 5px 0px 5px; /* Отступы вокруг */
+    }
+.player_team_point {
+    height: 29px; /* Высота блока */
+    width: 21px; /* Ширина блока */
+    position: absolute; /* Абсолютное позиционирование */
+    top: 0px; /* Положение от верхнего края */
+    left: 175px; /* Положение от левого края */
+    text-align: right;
+    text-transform: uppercase; /* Заглавные буквы */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    font-weight: bold; /* Жирное начертание */
+    font-family: Bicubik, Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 20px; /* Размер шрифта в пунктах */ 
+    color: fuchsia;
+   }
