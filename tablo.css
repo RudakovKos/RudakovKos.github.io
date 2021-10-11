@@ -166,12 +166,12 @@
     padding: 0px; /* Поля вокруг текста */
     border: 0px solid black; /* Параметры рамки */
     margin: 0px; /* Отступы вокруг */
-    font-weight: bold; /* Жирное начертание */
-    font-family: Digital-7, LCD;
+/*    font-weight: bold; /* Жирное начертание */
+    font-family: LCD, Digital-7;
     font-size: 64px; /* Размер шрифта в пунктах */ 
     color: orange;
    }
-   .quarter {
+.quarter {
     /*background-color: white; /* Цвет фона */
     height: 56px; /* Высота блока */
     width: 48px; /* Ширина блока */
@@ -182,8 +182,37 @@
     padding: 0px; /* Поля вокруг текста */
     border: 0px solid black; /* Параметры рамки */
     margin: 0px; /* Отступы вокруг */
-    font-weight: bold; /* Жирное начертание */
-    font-family: Digital-7, LCD;
+/*    font-weight: bold; /* Жирное начертание */
+    font-family: LCD, Digital-7;
     font-size: 48px; /* Размер шрифта в пунктах */ 
     color: green;
    }
+.time-out {
+    /*background-color: white; /* Цвет фона */
+    position: absolute; /* Абсолютное позиционирование */
+    padding: 0px; /* Поля вокруг текста */
+    border: 0px solid black; /* Параметры рамки */
+    margin: 0px; /* Отступы вокруг */
+/*    font-weight: bold; /* Жирное начертание */
+    font-family: LCD, Digital-7;
+    font-size: 48px; /* Размер шрифта в пунктах */ 
+    color: green;
+   }
+.to-clock {
+    /*background-color: white; /* Цвет фона */
+    height: 32px; /* Высота блока */
+    width: 60px; /* Ширина блока */
+    position: absolute; /* Абсолютное позиционирование */
+    top: 12px; /* Положение от верхнего края */
+    left: 94px; /* Положение от левого края */
+    text-align: center;
+    padding: 0px; /* Поля вокруг текста */
+    border: 0px solid black; /* Параметры рамки */
+    margin: 0px; /* Отступы вокруг */
+/*    font-weight: bold; /* Жирное начертание */
+    font-family: LCD, Digital-7;
+    font-size: 32px; /* Размер шрифта в пунктах */ 
+    color: whitesmoke;
+   }
+
+
