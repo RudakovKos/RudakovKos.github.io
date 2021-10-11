@@ -167,7 +167,7 @@
     border: 0px solid black; /* Параметры рамки */
     margin: 0px; /* Отступы вокруг */
     font-weight: bold; /* Жирное начертание */
-    font-family: LCD; 
+    font-family: Digital-7, LCD;
     font-size: 64px; /* Размер шрифта в пунктах */ 
     color: orange;
    }
@@ -183,7 +183,7 @@
     border: 0px solid black; /* Параметры рамки */
     margin: 0px; /* Отступы вокруг */
     font-weight: bold; /* Жирное начертание */
-    font-family: LCD; 
+    font-family: Digital-7, LCD;
     font-size: 48px; /* Размер шрифта в пунктах */ 
     color: green;
    }
