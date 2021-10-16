@@ -166,7 +166,6 @@
     padding: 0px; /* Поля вокруг текста */
     border: 0px solid black; /* Параметры рамки */
     margin: 0px; /* Отступы вокруг */
-    font-weight: bold; /* Жирное начертание */
     font-family: LCD; 
     font-size: 64px; /* Размер шрифта в пунктах */ 
     color: orange;
@@ -182,8 +181,7 @@
     padding: 0px; /* Поля вокруг текста */
     border: 0px solid black; /* Параметры рамки */
     margin: 0px; /* Отступы вокруг */
-    font-weight: bold; /* Жирное начертание */
     font-family: LCD; 
-    font-size: 64px; /* Размер шрифта в пунктах */ 
+    font-size: 48px; /* Размер шрифта в пунктах */ 
     color: green;
    }
